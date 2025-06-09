@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Kuliner - Taman Kelong</title>    <meta name="description" content="Menu kuliner khas Taman Kelong - Nikmati kelezatan makanan dan minuman khas Sulawesi Utara">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        /* Force menu items to be visible */
+        .menu-item {
+            display: block !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: none !important;
+        }
+        .menu-grid {
+            display: grid !important;
+            visibility: visible !important;
+        }
+        main.content {
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Taman Kelong</div>            <ul class="nav-links">
+                <li><a href="index.html#about">Tentang</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="reservasi.html">Reservasi</a></li>
+                <li><a href="index.html#contact">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Menu Kuliner Taman Kelong</h1>
+            <p>Nikmati kelezatan kuliner khas Sulawesi Utara</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+        <!-- Menu Section -->
+        <section id="menu" data-aos="fade-up">
+            <div class="menu-container">                <h2>MENU KULINER</h2>
+                <p>Nikmati kelezatan kuliner khas Taman Kelong dengan citarasa autentik Sulawesi Utara</p>
+                
+                <!-- Menu Grid -->
+                <div class="menu-grid" id="menuGrid">
+                    <!-- Makanan -->
+                    <div class="menu-item" data-category="makanan">
+                        <div class="menu-image">
+                            <img src="images/cakalang-fufu.jpg" alt="Cakalang Fufu" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Cakalang Fufu</h3>
+                            <p>Ikan cakalang asap khas Manado dengan bumbu rica-rica yang pedas dan gurih</p>
+                            <div class="menu-price">Rp 35.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="makanan">
+                        <div class="menu-image">
+                            <img src="images/tinutuan.jpg" alt="Tinutuan (Bubur Manado)" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Tinutuan (Bubur Manado)</h3>
+                            <p>Bubur sayuran khas Manado dengan campuran jagung, kangkung, dan bayam</p>
+                            <div class="menu-price">Rp 25.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="makanan">
+                        <div class="menu-image">
+                            <img src="images/rica-rica.jpg" alt="Rica-Rica Ayam" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Rica-Rica Ayam</h3>
+                            <p>Ayam bakar dengan bumbu rica-rica khas Minahasa yang pedas dan aromatik</p>
+                            <div class="menu-price">Rp 40.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="makanan">
+                        <div class="menu-image">
+                            <img src="images/nasi-kuning.jpg" alt="Nasi Kuning Manado" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Nasi Kuning Manado</h3>
+                            <p>Nasi kuning dengan lauk ayam rica-rica, cakalang fufu, dan sayur</p>
+                            <div class="menu-price">Rp 30.000</div>
+                        </div>
+                    </div>                    <!-- Minuman -->
+                    <div class="menu-item" data-category="minuman">
+                        <div class="menu-image">
+                            <img src="images/es-cap-tikus.jpg" alt="Es Cap Tikus" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Es Cap Tikus</h3>
+                            <p>Minuman segar khas Minahasa dengan campuran es dan sirup alami</p>
+                            <div class="menu-price">Rp 15.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="minuman">
+                        <div class="menu-image">
+                            <img src="images/jus-markisa.jpg" alt="Jus Markisa" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Jus Markisa</h3>
+                            <p>Jus markisa segar dari buah lokal pegunungan Tomohon</p>
+                            <div class="menu-price">Rp 18.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="minuman">
+                        <div class="menu-image">
+                            <img src="images/kopi-tomohon.jpg" alt="Kopi Tomohon" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Kopi Tomohon</h3>
+                            <p>Kopi arabika asli Tomohon dengan cita rasa khas pegunungan</p>
+                            <div class="menu-price">Rp 12.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="minuman">
+                        <div class="menu-image">
+                            <img src="images/es-kelapa.jpg" alt="Es Kelapa Muda" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Es Kelapa Muda</h3>
+                            <p>Kelapa muda segar dengan es serut dan sirup gula aren</p>
+                            <div class="menu-price">Rp 20.000</div>
+                        </div>
+                    </div>                    <!-- Snack -->
+                    <div class="menu-item" data-category="snack">
+                        <div class="menu-image">
+                            <img src="images/pisang-bakar.jpg" alt="Pisang Bakar Rica" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Pisang Bakar Rica</h3>
+                            <p>Pisang bakar dengan taburan bumbu rica dan keju</p>
+                            <div class="menu-price">Rp 15.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="snack">
+                        <div class="menu-image">
+                            <img src="images/jagung-bakar.jpg" alt="Jagung Bakar Bumbu" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Jagung Bakar Bumbu</h3>
+                            <p>Jagung bakar dengan olesan bumbu kacang dan sambal rica</p>
+                            <div class="menu-price">Rp 12.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="snack">
+                        <div class="menu-image">
+                            <img src="images/kue-cucur.jpg" alt="Kue Cucur" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Kue Cucur</h3>
+                            <p>Kue tradisional Minahasa dengan rasa manis dan tekstur kenyal</p>
+                            <div class="menu-price">Rp 8.000</div>
+                        </div>
+                    </div>                    <div class="menu-item" data-category="snack">
+                        <div class="menu-image">
+                            <img src="images/gorengan-mix.jpg" alt="Gorengan Mix" loading="lazy">
+                            <div class="menu-overlay">
+                                <span class="menu-view-btn">👁️</span>
+                            </div>
+                        </div>
+                        <div class="menu-info">
+                            <h3>Gorengan Mix</h3>
+                            <p>Aneka gorengan: tahu, tempe, pisang, dan sayuran dengan sambal</p>
+                            <div class="menu-price">Rp 10.000</div>
+                        </div>
+                    </div>                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Kelompok Eldian. All rights reserved.</p>
+    </footer>    <!-- Menu Modal -->
+    <div id="menuModal" class="menu-modal">
+        <div class="menu-modal-content">
+            <span class="menu-modal-close">&times;</span>
+            <div class="menu-modal-body">
+                <div class="menu-modal-image">
+                    <img id="menuModalImage" src="" alt="">
+                </div>
+                <div class="menu-modal-info">
+                    <h3 id="menuModalTitle"></h3>
+                    <p id="menuModalDescription"></p>
+                    <div class="menu-modal-price" id="menuModalPrice"></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    <script>        // Simple initialization without complex animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize AOS for basic animations
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 50
+            });
+            
+            const allMenuItems = document.querySelectorAll('.menu-item');
+            
+            // Add click functionality for menu items
+            allMenuItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const img = this.querySelector('.menu-image img');
+                    const title = this.querySelector('.menu-info h3').textContent;
+                    const description = this.querySelector('.menu-info p').textContent;
+                    const price = this.querySelector('.menu-price').textContent;
+                    
+                    // Show menu detail modal
+                    document.getElementById('menuModalImage').src = img.src;
+                    document.getElementById('menuModalTitle').textContent = title;
+                    document.getElementById('menuModalDescription').textContent = description;
+                    document.getElementById('menuModalPrice').textContent = price;
+                    
+                    document.getElementById('menuModal').style.display = 'flex';
+                });
+            });
+            
+            // Modal close functionality
+            const modal = document.getElementById('menuModal');
+            const closeBtn = document.querySelector('.menu-modal-close');
+            
+            closeBtn.addEventListener('click', function() {
+                modal.style.display = 'none';
+            });
+            
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
